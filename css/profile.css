@@ -1,0 +1,25 @@
+
+/* Style the table */
+.myTable {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  /* Style table header */
+  .myTable th {
+    background-color: #f2f2f2;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  /* Style table data cells */
+  .myTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  /* Style alternate rows */
+  .myTable tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
